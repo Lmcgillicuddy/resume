@@ -1,12 +1,3 @@
-<?php
-
-// Forked from https://gist.github.com/1809044
-// Available from https://gist.github.com/nichtich/5290675#file-deploy-php
-
-$TITLE   = 'Git Deployment Hamster';
-$VERSION = '0.11';
-
-echo <<<EOT
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -19,8 +10,7 @@ echo <<<EOT
  /\\"/\   v$VERSION
 (`=*=') 
  ^---^`-.
-EOT;
-
+<?php
 // Check whether client is allowed to trigger an update
 
 $allowed_ips = array(
